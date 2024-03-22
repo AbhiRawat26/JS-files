@@ -1,4 +1,4 @@
-let score = "abhi"
+let score = "33"
 
 // console.log(typeof score);
 // console.log(typeof(score));
@@ -61,5 +61,18 @@ let num1, num2, num3
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
-++gameCounter;
+gameCounter++;
 console.log(gameCounter);
+
+
+
+let x = 5;
+let y = --x;
+console.log(x); 
+console.log(y); 
+
+let a = 5;
+let b = a--;
+console.log(a); 
+console.log(b); 
+
