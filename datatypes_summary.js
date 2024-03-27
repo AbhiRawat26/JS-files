@@ -34,4 +34,34 @@ const myFunction = function(){
 }    // Function value return is Function and this is called Function Object
 
 
-console.log(typeof myObj);
+// console.log(typeof myObj);
+
+
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive), Heap (Non Primitive)
+
+let myYoutubename = "abhirawartdotcom"
+
+let anothername = myYoutubename
+anothername = "abhicode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+let userThree = userOne
+
+userTwo.email = "abhi@google.com"
+userThree.email = "anku@google.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userThree.email);
